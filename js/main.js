@@ -35,3 +35,12 @@ console.log ('a sabrina é tchola ao quadrado')
    var fruta2 = "laranja";
    alert ("delicia"  +  fruta  +  fruta2);
    typeof (melao);*/
+
+   //Array e dicionário
+  
+  /* var lista =  [ "maça" , "pera" , "laranja"];
+   console.log (lista); */
+   
+
+   // Me devolveu:
+   //["maça", "pera", "laranja"]
