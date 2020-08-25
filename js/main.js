@@ -27,5 +27,11 @@ console.log ('a sabrina é tchola ao quadrado')
     var idade2= "125"
     alert (idade + idade2)*/
 
+    /*var number= 25;
+    var numer2= 51;
+    alert (number + numer2)*/
 
-
+  /* var fruta = "melao";
+   var fruta2 = "laranja";
+   alert ("delicia"  +  fruta  +  fruta2);
+   typeof (melao);*/
