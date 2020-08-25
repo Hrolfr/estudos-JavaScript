@@ -101,3 +101,73 @@ lista.pop("aspargos");
 console.log (lista);
 alert(lista);
 //lista.push("cenoura" , "pimenta");
+
+//Condicionais,laços de repetição e gate
+
+var idade = 18;
+if (idade > 18){
+alert ("maior de idade");
+} else{
+alert ("menor de idade");
+}
+
+//Devolveu: "menor de idade".Menor de idade?Mas tenho 18! logo:
+
+var idade = 18;
+if (idade >= 18){
+alert ("maior de idade");
+} else{
+alert ("menor de idade");
+}
+
+//Deu: "maior de idade"
+var idade = 18;
+var idade = prompt ("Qual é a sua idade?");
+if (idade >= 18){
+alert ("maior de idade");
+} else{
+alert ("menor de idade");
+}
+
+//FUNCIONOU!
+
+//Teste
+
+var nome = "sabrina";
+if (nome = "sabrina");{
+alert ("você é tchola")
+} 
+
+//Certinho
+
+//Com o prompt
+var nome = "sabrina";
+var nome = prompt ("Qual é o seu nome?");
+if (nome = "sabrina");{
+alert ("tchola");
+
+//Certo
+
+var nome = "sabrina";
+var nome = prompt ("Qual é o seu nome?");
+if (nome != "sabrina");{
+ alert("oi estranho?");
+}
+
+// Apareceu o "oi estranho"
+
+var nome = "gustavo";
+var nome = prompt ("Qual é o seu nome?");
+if (nome = "gustavo");{
+ alert("oi oi rsrs");
+}
+
+//KKKKKKKKKK
+//Inverso
+var nome = "gustavo";
+var nome = prompt ("Qual é o seu nome?");
+if (nome != "gustavo");{
+ alert("oi");
+}
+ 
+//Funcionou
