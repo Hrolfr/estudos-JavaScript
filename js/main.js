@@ -44,3 +44,47 @@ console.log ('a sabrina é tchola ao quadrado')
 
    // Me devolveu:
    //["maça", "pera", "laranja"]
+
+  /* var lista =  [ "maça" , "pera" , "laranja"];
+   console.log (lista [1]);
+   alert (lista [1]);*/
+
+   //Me devolveu pera
+
+  /* var lista =  [ "maça" , "pera" , "laranja"];
+   console.log (lista [2]);
+   alert (lista [2])*/
+
+   // Me devolveu laranja
+
+   
+  /* var lista =  [ "maça" , "pera" , "laranja"];
+   console.log (lista [0]);
+   alert (lista [0]) */
+
+   // Me devolveu maça
+
+   //Adicionar item na lista
+
+   /* var lista =  [ "maça" , "pera" , "laranja"];
+   console.log (lista);
+   lista.push ("uva");
+   console.log (lista);*/
+
+   //Devolveu:
+  // ["maça", "pera", "laranja"] e ["maça", "pera", "laranja", "uva"]
+
+  //Tirar o último elemento 
+  var lista =  [ "maça" , "pera" , "laranja"];
+   console.log (lista);
+   lista.push ("uva");
+   console.log (lista);
+   lista.pop()
+   console.log (lista.lenght);
+ //Mostra a lenght 3 e 4
+ //Adicionando o alert
+ 
+ alert (lista);
+   /*Mostra: 
+   maça,pera,laranja*/
+   
