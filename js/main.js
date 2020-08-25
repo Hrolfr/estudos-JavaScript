@@ -87,4 +87,17 @@ console.log ('a sabrina é tchola ao quadrado')
  alert (lista);
    /*Mostra: 
    maça,pera,laranja*/
-   
+
+   //Minha tentativa
+
+/*var lista = ["tomate" , "brócolis" , "couve" , "aspargos"];
+console.log (lista [3]);
+lista.push("cenoura" , "pimenta");
+console.log (lista);
+alert(lista);*/
+
+var lista = ["tomate" , "brócolis" , "couve" , "aspargos"];
+lista.pop("aspargos");
+console.log (lista);
+alert(lista);
+//lista.push("cenoura" , "pimenta");
