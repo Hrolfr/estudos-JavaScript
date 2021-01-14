@@ -47,7 +47,7 @@ Rafael Galleani
  alert(frase.replace("Japão","Brasil"));
  eles trocam Japão por Brasil */
 
- /*Exemplo 2.4
+ /*Exemplo 2.5
  console.log(nome);
  console.log(idade + idade2);
  console.log(frase.toUpperCase()); deixa tudo em caixa alta
@@ -63,15 +63,9 @@ console.log(n1 * n2); multiplica */
 
 
 /*b-Array e Dicionário 
+está no index.html*/
 
-var lista = ["maça", "pera", "laranja"];
-console.log(lista[1]);
-alert(lista[1]);
-ambos devolvem a pera,pois ela é o índice 1*/
-
-
-
-
+//c-Condicionais,laços de repetição 
 
 /*newFunction();
 
@@ -152,6 +146,39 @@ function newFunction() {
   lista.push("cenoura" , "pimenta");
   console.log (lista);
   alert(lista);*/
+ 
+  /* b-Array e Dicionário 
+var lista = ["maça", "pera", "laranja"];
+console.log(lista[1]);
+alert(lista[1]);
+ambos devolvem a pera,pois ela é o índice 1
+
+caso 2:
+var lista = ["maça", "pera", "laranja"];
+lista.push("uva");
+console.log(lista); cria a uba e adiciona no último índice
+
+caso 3: quero tirar um item da lista
+var lista = ["maça", "pera", "laranja"];
+lista.pop();
+console.log(lista); tirou a laranja
+
+caso 3: ver o tamanho da lista
+console.log(lista.length);
+
+caso 4: reverse
+console.log(lista.reverse());
+ele inverte a ordem 
+
+caso 5: 
+console.log(lista[0]); devolveu maça
+console.log(lista.toString()[0]); devolveu a m
+
+caso 6: c não quer que a lista fique separada por vírgula,então:
+console.log(lista.join(" - ")); separa por traço,pipeline,espaçotransforma em string
+console.log(lista.join(" | ")); pipeline
+console.log(lista.join("  ")); espaço
+console.log(lista.join("")); junta todos*/
   
   /*var lista = ["tomate", "brócolis", "couve", "aspargos"];
   lista.pop("aspargos");
@@ -186,20 +213,19 @@ function newFunction() {
   //FUNCIONOU!
   //Teste
   var nome = "sabrina";
-  if (nome = "sabrina")
-    ; {
+  if (nome = "sabrina"){
     alert("você é tchola");
   }
+ //Certinho
 
-  //Certinho
   //Com o prompt
   var nome = "sabrina";
   var nome = prompt("Qual é o seu nome?");
-  if (nome = "sabrina")
-    ; {
+  if (nome = "sabrina"){
     alert("tchola");
+  }
+  //Certo
 
-    //Certo
     var nome = "sabrina";
     var nome = prompt("Qual é o seu nome?");
     if (nome != "sabrina")
@@ -227,3 +253,64 @@ function newFunction() {
     //Funcionou
   }
 */
+
+/* Estruturas de repetição:
+a-while
+
+var count = 0;
+while (cont < 5){
+  console.log(count);
+  count = count + 1
+} conta de 0té 4 
+
+se: 
+var count = 0;
+while (cont <= 5){
+  console.log(count);
+  count = count + 1 
+};  imrpime do 0 até o 5
+
+var count = 0;
+while (cont <= 5){
+  console.log(count);
+  count ++ faz o mesmo que o  de  cima (recebe ele mesmo + 1)
+};
+
+ou:
+var count = 0;
+while (cont <= 5){
+  console.log(count);
+  alert(count);
+  count ++  usa o alert pra contar
+};
+
+b-for
+
+var count;
+for(count = 0; ount <= 5,count ++){
+  alert(count);
+}
+
+var count;
+for(count = 1; ount <= 5,count ++){
+  alert(count); inicia do 1
+}
+
+*/ 
+
+/* Date
+
+var d = new Date();
+alert(d); dá a data
+
+var d = new Date();
+alert(d.getMonth()+1); dá o número do mes
+
+
+alert(d.getMinutes()); 
+alert(d.getHours());
+alert(d.getDay()); 
+
+
+
+ */
