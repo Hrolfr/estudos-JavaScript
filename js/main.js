@@ -261,7 +261,7 @@ var count = 0;
 while (cont < 5){
   console.log(count);
   count = count + 1
-} conta de 0té 4 
+} conta de 0té 4 d
 
 se: 
 var count = 0;
