@@ -1,7 +1,11 @@
 //Exemplos do Rafael Galleani (professor)
 
+/*Formas de linkar o js no html:
+ir no body e colocar o script,e lá iniciar o código.
+
+*/
 //Exemplo 1
-var nome= "Rafael Galleani"; 
+/*var nome= "Rafael Galleani"; 
 alert (`Bem vindo ${nome}` ); 
 
 //Exemplo 2
@@ -69,8 +73,9 @@ function newFunction() {
   console.log (lista);*/
   //Devolveu:
   // ["maça", "pera", "laranja"] e ["maça", "pera", "laranja", "uva"]
-  //Tirar o último elemento 
+  //Tirar o último elemento  */
   
+  /*
   var lista = ["maça", "pera", "laranja"];
   console.log(lista);
   lista.push("uva");
@@ -88,7 +93,8 @@ function newFunction() {
   lista.push("cenoura" , "pimenta");
   console.log (lista);
   alert(lista);*/
-  var lista = ["tomate", "brócolis", "couve", "aspargos"];
+  
+  /*var lista = ["tomate", "brócolis", "couve", "aspargos"];
   lista.pop("aspargos");
   console.log(lista);
   alert(lista);
@@ -161,5 +167,4 @@ function newFunction() {
     //Funcionou
     //Funcionou
   }
-
-
+*/
