@@ -2,18 +2,58 @@
 
 /*Formas de linkar o js no html:
 ir no body e colocar o script,e lá iniciar o código.
-
 */
+
 //Exemplo 1
 /*var nome= "Rafael Galleani"; 
-alert (`Bem vindo ${nome}` ); 
-
-//Exemplo 2
-var nome= "Rafael Galleani"; var idade= 29;
-alert (`Bem vindo ${nome} ${idade}` );
+ou: 
+alert("Bem vindo + nome");
+alert (`Bem vindo ${nome}` );  */
 
 
-//Exemplo 3 
+/*Exemplo 2
+var nome= "Rafael Galleani"; 
+var idade= 29;
+ou:
+alert(nome + "tem" + idade + "anos");
+alert (`Bem vindo ${nome} ${idade}` );*/
+
+/*Exemplo 2.1
+var nome = "Rafael Galleani"; 
+var idade = 29;
+var idade2 =10;
+alert(idade + idade2); ele soma*/
+
+/*Exemplo 2.2
+var nome = "Rafael Galleani"; 
+var idade = "29";
+var idade2 ="10";
+alert(idade + idade2); devolve 2910
+console.log(nome);
+console.log(idade + idade2);
+gera:
+Rafael Galleani 
+29
+ */
+
+ /*Exemplo 2.3
+ var frase = "Japão é o melhor time do mundo"
+ console.log(frase);
+ console.log(frase.replace("Japão", Brasil));
+ ou:
+ alert(frase.replace("Japão","Brasil"));
+ eles trocam Japão por Brasil */
+
+ /*Exemplo 2.4
+ console.log(nome);
+ console.log(idade + idade2);
+ console.log(frase.toUpperCase()); deixa tudo em caixa alta
+ e
+console.log(frase.toLowerCase());
+  */
+
+
+/*Exemplo 3 
 newFunction();
 
 function newFunction() {
@@ -26,28 +66,28 @@ function newFunction() {
 
   if (true) {
     console.log('a sabrina é tchola ao quadrado');
-  }
+  }*/
 
-  //Exemplo 4
+  /*Exemplo 4
   var idade = 29;
   var idade2 = 10;
-  alert(idade + idade2);
+  alert(idade + idade2);*/
 
-  //Exemplo 5
+  /*Exemplo 5
   var idade = "12";
   var idade2 = "125";
-  alert(idade + idade2);
+  alert(idade + idade2);*/
 
-  //Exemplo 6
+  /*Exemplo 6
   var number = 25;
   var numer2 = 51;
-  alert(number + numer2);
+  alert(number + numer2);*/
 
-  //Exemplo 7
+  /*Exemplo 7
   var fruta = "melao";
   var fruta2 = "laranja";
   alert("delicia" + fruta + fruta2);
-  typeof (melao); * /;
+  typeof (melao); */
 
   //Array e dicionário
   /* var lista =  [ "maça" , "pera" , "laranja"];
