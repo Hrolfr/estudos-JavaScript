@@ -1,8 +1,11 @@
-//Exemplos do Rafael Galleani (professor)
+/*1-Introdução ao JavaScript 
+a- Introdução ao JavaScript*/
 
 /*Formas de linkar o js no html:
 ir no body e colocar o script,e lá iniciar o código.
 */
+
+//Strings e números
 
 //Exemplo 1
 /*var nome= "Rafael Galleani"; 
@@ -36,7 +39,7 @@ Rafael Galleani
 29
  */
 
- /*Exemplo 2.3
+/*Exemplo 2.3
  var frase = "Japão é o melhor time do mundo"
  console.log(frase);
  console.log(frase.replace("Japão", Brasil));
@@ -52,9 +55,25 @@ Rafael Galleani
 console.log(frase.toLowerCase());
   */
 
+/*Exemplo 2.4
+var nome = "Rafael Galleani"; 
+var n1 = 5;
+var n2 =3; 
+console.log(n1 * n2); multiplica */
 
-/*Exemplo 3 
-newFunction();
+
+/*b-Array e Dicionário 
+
+var lista = ["maça", "pera", "laranja"];
+console.log(lista[1]);
+alert(lista[1]);
+ambos devolvem a pera,pois ela é o índice 1*/
+
+
+
+
+
+/*newFunction();
 
 function newFunction() {
   newFunction_1();
