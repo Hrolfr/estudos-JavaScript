@@ -391,7 +391,7 @@ console.log(validarIdade(idade));
 
    //Direcionar pra outra página:
    
-   /*function clicou(){
+   function clicou(){
     document.getElementById("agradecimento").innerHTML = "Obrigado por clicar"; 
    } 
 
@@ -399,4 +399,18 @@ console.log(validarIdade(idade));
      window.open ("https://web.digitalinnovation.one/course/programacao-para-internet-com-javascript/learning/ddb54ad6-55fb-4eec-90d5-561a6010d14d");
      e
      window.location.href = "https://web.digitalinnovation.one/course/programacao-para-internet-com-javascript/learning/ddb54ad6-55fb-4eec-90d5-561a6010d14d";
-    } .href abre na mesma janela,o open em outra aba*/
+    } //.href abre na mesma janela,o open em outra aba
+
+    function trocar(elemento){
+     //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+     elemento.innerHTML = "Obrigado por passar o mouse";
+     //alert("trocar texto");
+    } 
+
+    //Outra forma de fazer o negócio a cima:
+    function voltar(elemento) {
+      // document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+      elemento.innerHTML = "Passe o mouse aqui";
+    }
+//o onmouseover troca
+    
