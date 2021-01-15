@@ -414,3 +414,10 @@ console.log(validarIdade(idade));
     }
 //o onmouseover troca
     
+function load(){
+  alert("página carregada")
+}
+
+function funcaoChange(elemento){
+  console.log(elemento.value); //.value carrega o valor do elemento 
+}

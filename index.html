@@ -9,7 +9,7 @@
 
 </head>
 
-<body>
+<body onload="load()">
 
 <!-- <script>
     alert ("meu primeiro js"); //entrando na pág ele já notifica.
@@ -25,6 +25,11 @@
 <p id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)"> Passe o mouse aqui</p>
 <p id="mousemove2" onmouseover="trocar(this)" onmouseout="voltar(this)"> Passe o mouse aqui</p>
 <!--funciona mesmo sem o id,e eles funcionam pois estão passando a si mesmos-->
+<select onchange="funcaoChange(this)">
+    <option value="1">Valor 1</option>
+    <option value="2">Valor 2</option>
+    <option value="3"> Valor 3</option>
+</select>
 </body>
 
 
