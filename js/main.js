@@ -369,4 +369,34 @@ validaIdade(idade);
 console.log(validarIdade(idade));
  sem o var ele é pego fora da função,global */
 
-  
+  // b- Manipulando elementos da página
+
+/*  function clicou(){
+    alert("Obrigado por clicar");
+  */
+
+   /*function clicou(){
+    document.getElementById("agradecimento");
+    console.log(document.getElementById("agradecimento"));
+   }  */
+
+   /*
+   function clicou(){
+    document.getElementById("agradecimento").innerHTML = "Obrigado por clicar"; 
+   }  inner HTML permite qualuqer coisa dentro de si,exemplo: */
+
+   /* function clicou(){
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>"; 
+   } */
+
+   //Direcionar pra outra página:
+   
+   /*function clicou(){
+    document.getElementById("agradecimento").innerHTML = "Obrigado por clicar"; 
+   } 
+
+   function redirecionar(){
+     window.open ("https://web.digitalinnovation.one/course/programacao-para-internet-com-javascript/learning/ddb54ad6-55fb-4eec-90d5-561a6010d14d");
+     e
+     window.location.href = "https://web.digitalinnovation.one/course/programacao-para-internet-com-javascript/learning/ddb54ad6-55fb-4eec-90d5-561a6010d14d";
+    } .href abre na mesma janela,o open em outra aba*/
