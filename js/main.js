@@ -310,7 +310,63 @@ alert(d.getMonth()+1); dá o número do mes
 alert(d.getMinutes()); 
 alert(d.getHours());
 alert(d.getDay()); 
-
-
-
  */
+
+ //2-Desenvolva páginas web com JS
+ //A-Desenvolva páginas web com JS 
+
+//Funções:
+
+ /* caso  1:
+ function soma(n1+n2){
+   return n1+n2;
+}
+   alert(soma(5, 10));
+ Gera 15 */ 
+
+ /* caso  2:
+ function soma(n1+n2){
+   return n1+n2;
+}
+
+function setReplace(frase, nome, novo_nome){
+   return frase.Replace(nome, novo_nome);
+}
+
+   alert(soma(5, 10));
+   alert(setReplace("Vai Japão", "Japão", "Brasil")); gera 15 e "Vai Brasil"
+  */
+
+  //Varíaveis
+  /*function validaIdade(idade){
+    var validar;
+  if (idade >= 18){
+    validar = true;
+  }else{
+    validar = false;
+  }
+  return validar;
+
+}
+
+var idade = prompt("Qual sua idade?");
+console.log(validarIdade(idade)); local */ 
+
+
+  /*sem var 
+  function validaIdade(idade){
+  if (idade >= 18){
+    validar = true;
+  }else{
+    validar = false;
+  }
+  return validar;
+
+}
+
+var idade = prompt("Qual sua idade?");
+validaIdade(idade);
+console.log(validarIdade(idade));
+ sem o var ele é pego fora da função,global */
+
+  
