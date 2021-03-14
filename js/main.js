@@ -391,7 +391,7 @@ console.log(validarIdade(idade));
 
    //Direcionar pra outra página:
    
-   function clicou(){
+  /* function clicou(){
     document.getElementById("agradecimento").innerHTML = "Obrigado por clicar"; 
    } 
 
@@ -420,4 +420,4 @@ function load(){
 
 function funcaoChange(elemento){
   console.log(elemento.value); //.value carrega o valor do elemento 
-}
+}*/
