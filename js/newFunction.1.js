@@ -1,4 +1,4 @@
-// JavaScript ES6 essencial  
+/* JavaScript ES6 essencial  
 
 // Função normal
 
@@ -23,7 +23,7 @@ function soma (a){
    /*Retornou 4:
     ƒ (b){
         return a+b;
-    }*/
+    }
 
 //Hoisting de variáveis
 
@@ -47,3 +47,4 @@ fn();
 
 //Devolve Hoisting de função
 
+*/
