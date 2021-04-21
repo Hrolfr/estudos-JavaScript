@@ -217,17 +217,13 @@ console.log(sum(6, 4));*/
 
 //estudo com conhecimentos do novo curso de JS
 
+//21/04
 
+/*var kake = (bolo) => bolo;
 
-var kake =  () => {
+console.log(kake); devolveu: (bolo) => bolo*/
 
-  var kake = ['jordbaer', 'oransj'];
-  var kake = prompt ('Hvilken kake liker du mer?');
+/*var kake = (bolo) => bolo;
 
-  if (kake === 'jordbaer'){
-      alert ('JEG ELSKER DET!');
-  }
-  else {
-      alert('JEG LIKER');
-  }
-}
+console.log(bolo); Uncaught ReferenceError: bolo is not defined
+at <anonymous>:3:13 */
