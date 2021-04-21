@@ -227,3 +227,6 @@ console.log(kake); devolveu: (bolo) => bolo*/
 
 console.log(bolo); Uncaught ReferenceError: bolo is not defined
 at <anonymous>:3:13 */
+
+
+
