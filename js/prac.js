@@ -199,3 +199,35 @@ sum (2)(1);
 sum (2);
 
 */
+
+// 18/04/21 testes sobre o curso de JS avançado
+
+/*var sum = (a, b) => {
+console.log(sum(5, 15));
+}*/
+
+/*var sum = (a, b) => {
+
+    if (a > b){
+        console.log('Oi corno!');
+    } return a + b;
+}
+
+console.log(sum(6, 4));*/
+
+//estudo com conhecimentos do novo curso de JS
+
+
+
+var kake =  () => {
+
+  var kake = ['jordbaer', 'oransj'];
+  var kake = prompt ('Hvilken kake liker du mer?');
+
+  if (kake === 'jordbaer'){
+      alert ('JEG ELSKER DET!');
+  }
+  else {
+      alert('JEG LIKER');
+  }
+}
