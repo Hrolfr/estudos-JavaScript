@@ -17,3 +17,12 @@ logArgs(...marca); gera: (22) ["D", "i", "g", "i", "t", "a", "l", " ", "I", "n"
 }
 const animGrand2 = animGrand.concat(['guepardo', 'leopardo', 'pantera']);
    console.log(animGrand2); (6) ["leão", "tigre", "onça", "guepardo", "leopardo", "pantera"]*/
+
+   //quero fazer um registro das notas
+  const alunos = ['Carlos', 'Luiz', 'Maria', 'Eduarda']; 
+
+   const notas = () => {
+       if (nota >=5){
+           console.log('reprovado');
+       }
+   }
