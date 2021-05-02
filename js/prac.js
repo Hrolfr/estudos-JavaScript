@@ -228,5 +228,18 @@ console.log(kake); devolveu: (bolo) => bolo*/
 console.log(bolo); Uncaught ReferenceError: bolo is not defined
 at <anonymous>:3:13 */
 
+// treino com o counteúdo do outro curso
 
+/*#1
+const frase = 'Galinha na grelha é uma maravilha';
+
+console.log(frase.replace("Galinha", "Frango"));
+gera: Frango na grelha é uma maravilha*/
+
+
+/*#2
+const capsLock = 'thais carla é obesa,menó!'
+
+console.log(capsLock.toUpperCase('thais carla'));
+gera: THAIS CARLA É OBESA,MENÓ! */
 
