@@ -243,3 +243,28 @@ const capsLock = 'thais carla é obesa,menó!'
 console.log(capsLock.toUpperCase('thais carla'));
 gera: THAIS CARLA É OBESA,MENÓ! */
 
+//condicionais:
+
+/* Exemplo:
+var count = 0;
+while (count < 5){
+  console.log(count);
+  count = count + 1
+}*/
+
+/* Exemplo:
+var count = 0;
+while (count < 5){
+  console.log(count);
+ count ++
+}*/
+
+/* #1
+var count = 13;
+while (count != 3){
+  console.log(count);
+  count = count - 10;
+} devolve: 13 e 3*/
+
+
+ 
